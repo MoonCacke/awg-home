@@ -1,0 +1,18 @@
+build/
+vendor/amneziawg-tools/src/*.o
+vendor/amneziawg-tools/src/*.d
+vendor/amneziawg-tools/src/wg
+# VPN profiles contain private keys. Never commit them.
+*.conf
+*.mobileconfig
+*.zip
+*.dmg
+*.pkg
+*.log
+*.pyc
+__pycache__/
+build/
+vendor/amneziawg-tools/src/*.o
+vendor/amneziawg-tools/src/*.d
+vendor/amneziawg-tools/src/wg
+.DS_Store
