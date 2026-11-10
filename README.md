@@ -8,11 +8,14 @@ REALITY.
 
 - [Архитектура HOME + VPS](docs/architecture.md)
 - [Установка и настройка AmneziaWG](docs/amneziawg.md)
+- [Полное пошаговое развёртывание AmneziaWG](docs/complete-awg-playbook.md)
 - [Настройка VLESS REALITY](docs/vless-reality.md)
+- [Полное пошаговое развёртывание VLESS REALITY](docs/complete-vless-reality-playbook.md)
 - [Полная, раздельная и каскадная маршрутизация](docs/routing.md)
 - [Диагностика, обновления и восстановление](docs/operations.md)
 - [Безопасность и защита секретов](docs/security.md)
 - [Обезличенные примеры конфигураций](examples/README.md)
+- [Промты для передачи работы в другой чат](prompts/README.md)
 
 Все опубликованные адреса и ключи являются плейсхолдерами. Рабочие профили,
 UUID, URI и QR-коды в репозитории не хранятся.

@@ -8,12 +8,15 @@ AmneziaWG и Xray/VLESS REALITY. Все адреса, ключи, UUID и дом
 
 1. [Архитектура](architecture.md) — варианты одного и двух узлов.
 2. [AmneziaWG](amneziawg.md) — сервер, клиенты, роутер и проверка.
+   Полная процедура: [complete-awg-playbook.md](complete-awg-playbook.md).
 3. [VLESS REALITY](vless-reality.md) — Xray, сервер и клиент.
+   Полная процедура: [complete-vless-reality-playbook.md](complete-vless-reality-playbook.md).
 4. [Маршрутизация](routing.md) — полный, раздельный и каскадный режимы.
 5. [Эксплуатация](operations.md) — диагностика, обновления и восстановление.
 6. [Безопасность](security.md) — секреты, SSH, firewall и публикация в Git.
 
 Готовые обезличенные заготовки находятся в [`../examples`](../examples).
+Промты для соседних чатов находятся в [`../prompts`](../prompts).
 
 ## Важная граница
 
