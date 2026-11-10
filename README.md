@@ -1,4 +1,23 @@
-# AWG Home Local for Mac
+# AWG Home
+
+В репозитории находятся локальный клиент AWG Home для macOS и обезличенная
+документация по построению собственной VPN-схемы на AmneziaWG и Xray/VLESS
+REALITY.
+
+## Документация VPN
+
+- [Архитектура HOME + VPS](docs/architecture.md)
+- [Установка и настройка AmneziaWG](docs/amneziawg.md)
+- [Настройка VLESS REALITY](docs/vless-reality.md)
+- [Полная, раздельная и каскадная маршрутизация](docs/routing.md)
+- [Диагностика, обновления и восстановление](docs/operations.md)
+- [Безопасность и защита секретов](docs/security.md)
+- [Обезличенные примеры конфигураций](examples/README.md)
+
+Все опубликованные адреса и ключи являются плейсхолдерами. Рабочие профили,
+UUID, URI и QR-коды в репозитории не хранятся.
+
+## AWG Home Local for Mac
 
 Локальное приложение с кнопками «Подключить» и «Отключить» для одного личного профиля AmneziaWG. Оно не использует Apple Network Extension и не требует платной Apple Developer Team. Окно написано на Cocoa; при установке сетевой движок копируется из уже установленного `/Applications/AmneziaVPN.app`, а настройка протокола выполняется официальным `awg` из [amneziawg-tools](https://github.com/amnezia-vpn/amneziawg-tools), commit `ee0f0a9` (GPLv2; исходники и лицензия находятся в `vendor/amneziawg-tools`). Репозиторий не содержит движок AmneziaVPN и VPN-профили.
 

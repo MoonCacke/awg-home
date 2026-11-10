@@ -1,0 +1,19 @@
+[Interface]
+Address = 10.66.0.2/32
+DNS = 1.1.1.1, 9.9.9.9
+PrivateKey = <CLIENT_01_PRIVATE_KEY>
+Jc = 4
+Jmin = 8
+Jmax = 80
+S1 = 43
+S2 = 97
+H1 = <H1>
+H2 = <H2>
+H3 = <H3>
+H4 = <H4>
+
+[Peer]
+PublicKey = <SERVER_PUBLIC_KEY>
+Endpoint = <SERVER_IP_OR_NAME>:<AWG_UDP_PORT>
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 25

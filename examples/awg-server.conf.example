@@ -1,0 +1,18 @@
+[Interface]
+Address = 10.66.0.1/24
+ListenPort = <AWG_UDP_PORT>
+PrivateKey = <SERVER_PRIVATE_KEY>
+Jc = 4
+Jmin = 8
+Jmax = 80
+S1 = 43
+S2 = 97
+H1 = <H1>
+H2 = <H2>
+H3 = <H3>
+H4 = <H4>
+
+[Peer]
+# client-01
+PublicKey = <CLIENT_01_PUBLIC_KEY>
+AllowedIPs = 10.66.0.2/32

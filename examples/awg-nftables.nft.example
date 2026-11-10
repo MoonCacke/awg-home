@@ -1,0 +1,16 @@
+table inet awg_filter {
+    chain forward {
+        type filter hook forward priority filter; policy drop;
+
+        ct state established,related accept
+        iifname "awg0" ip saddr 10.66.0.0/24 oifname "eth0" accept
+    }
+}
+
+table ip awg_nat {
+    chain postrouting {
+        type nat hook postrouting priority srcnat; policy accept;
+
+        ip saddr 10.66.0.0/24 oifname "eth0" masquerade
+    }
+}
